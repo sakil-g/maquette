@@ -1,0 +1,138 @@
+@font-face {
+    font-family: police_wos;
+    src: url(../fonts/shojumaru-regular-webfont.woff);
+  }
+
+.ul{
+        list-style-type: none;
+        padding:0;
+         margin:0;
+         list-style-type:none;
+         
+      }
+   
+body{
+
+background-image: url("BGMontagnes.png") ;
+background-repeat: no-repeat;
+background-size: 100%;
+
+}
+
+#fond-toit {
+  background-image: url("fondToit.png");
+  width: 1488px;
+  height: 892px;
+  margin : 0 auto;
+
+}
+
+#menu {
+  background-image: url(menuTop/CadreMenu.png);
+  width: 844px;
+  height: 123px;
+  flex-direction: column;
+  position: fixed;
+  left: 249px;
+  top: 67px;
+  z-index: 0;
+}
+
+#vue-globale {
+  background-image:url(menuTop/btnVueGlobale.png);
+  width: 102px;
+  height: 97px;
+  margin-left:-26px;
+  margin-top: -2px;
+  float: left;
+  
+
+}
+
+#centre-ville {
+  background-image:url(menuTop/btnCentreVille.png);
+  width: 102px;
+  height: 97px;
+  margin-left:-0px;
+  margin-top: -2px;
+  float: left;
+  
+
+}
+
+#carte {
+  background-image:url(menuTop/btnCarte.png);
+  width: 102px;
+  height: 97px;
+  margin-left:-0px;
+  margin-top: -2px;
+  float: left;
+  
+
+}
+
+#classement {
+  background-image:url(menuTop/btnClassement.png);
+  width: 102px;
+  height: 97px;
+  margin-left:-0px;
+  margin-top: -2px;
+  float: left;
+  
+}
+
+#aide {
+  background-image:url(menuTop/btnAide.png);
+  width: 102px;
+  height: 97px;
+  margin-left:-0px;
+  margin-top: -2px;
+  float: left;
+
+
+}
+
+#améliorations {
+  background-image:url(menuTop/btnAmelio.png);
+  width: 102px;
+  height: 97px;
+  margin-left:-0px;
+  margin-top: -2px;
+  float: left;
+  
+}
+
+#boutique {
+  background-image:url(menuTop/btnBoutique.png);
+  width: 102px;
+  height: 97px;
+  margin-left:-0px;
+  margin-top: -2px;
+  float: left;
+  
+}
+
+#bonus {
+  background-image:url(menuTop/btnBonus.png);
+  width: 102px;
+  height: 97px;
+  margin-left:-0px;
+  margin-top: -2px;
+  float: left;
+  
+}
+
+#profil {
+  background-image: url(CadreProfil/CadreProfil.png);
+  width: 355px;
+  height: 144px;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  position: fixed;
+  left: 1085px;
+  top: 46px;
+  z-index: 0;
+}
+
+
+ 
